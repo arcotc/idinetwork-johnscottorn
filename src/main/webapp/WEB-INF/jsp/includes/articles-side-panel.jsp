@@ -17,7 +17,7 @@
            	  <c:forEach items="${articles}" var="article" varStatus="loopStatus">
            		<c:if test="${loopStatus.count < 4}">
 	              <tr>
-	                <td class="style2"><a href="/site/article/${article.key}" class="style2">${article.title}</a></td>
+	                <td class="style2"><a href="/site/article/${article.key}" class="style2"><img src="/static/images/marker.gif"/>&nbsp;${article.title}</a></td>
 	              </tr>
 	              <tr>
 	              	<td class="style4">

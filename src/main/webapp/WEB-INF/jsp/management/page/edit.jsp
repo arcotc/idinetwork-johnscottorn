@@ -31,7 +31,12 @@
 								<textarea cols="80" id="body" name="body" rows="10">${page.body}</textarea><br/>
 								<script type="text/javascript">
 								//<![CDATA[
-									CKEDITOR.replace( 'body' );
+								CKEDITOR.replace( 'body', { toolbar : [ ['Source'], 
+								                                    [ 'Bold','Italic','Underline','Strike','-','Subscript','Superscript' ],
+							                                        ['NumberedList','BulletedList','-','Outdent','Indent'],
+							                                        ['Link','Unlink','Anchor'],
+							                                        ['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+							                                        ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print', 'SpellChecker', 'Scayt'] ] } );
 								//]]>
 								</script>
 								Meta Description:<br/>

@@ -12,6 +12,8 @@
 
 	<tx:annotation-driven />
 
+	<bean id="adminUserService" class="uk.co.idinetwork.core.service.AdminUserServiceImpl" />
+	<bean id="adminUserRepository" class="uk.co.idinetwork.core.repository.AdminUserRepositoryImpl" />
 	<bean id="imageService" class="uk.co.idinetwork.core.service.ImageServiceImpl" />
 	<bean id="imageRepository" class="uk.co.idinetwork.core.repository.ImageRepositoryImpl" />
 	<bean id="bloggerFeedService" class="uk.co.idinetwork.core.service.BloggerFeedServiceImpl" />

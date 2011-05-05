@@ -1,6 +1,6 @@
 body,td,th {
 	font-family: tahoma;
-	font-size: 11px;
+	font-size: 12px;
 	color: #414141;
 }
 body {
@@ -12,7 +12,6 @@ body {
 }
 .style1 {color: #ffffff}
 a {
-	font-size: 11px;
 	color: #ffffff;
 }
 a:link {
@@ -27,7 +26,10 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
-.style2 {color: #005083;}
+.style2 {
+	color: #005083;
+	font-size: 13px;
+}
 .style3 {color: #B7B7B7}
 .style4 {color: #000000}
 .style5 {
@@ -62,6 +64,7 @@ a:active {
 
 .bodyText {
 	color: #414141;
+	font-size: 13px;
 }
 
 .bodyText a {
