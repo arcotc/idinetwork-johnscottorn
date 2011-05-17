@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://idinetwork.co.uk/taglibs/idinetwork" prefix="idi"%>
-<idi:articlesTag tags="news"/>
+<idi:articlesTag tags="news" maxItems="3"/>
 <c:if test="${not empty articles}">
  <tr>
    <td><table width="204" border="0" align="center" cellpadding="0" cellspacing="0">
